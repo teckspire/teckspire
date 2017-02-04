@@ -1,0 +1,36 @@
+@import "fonts";
+
+// Basics
+$base-min-width:        320px;
+$base-max-width:        1200px;
+$base-font-size:        16px;
+$base-font-color:       #555;
+$base-letter-spacing:   1px;
+$base-line-height:      1.5;
+$base-font-weight:      100;
+$base-font-family:      'Lato';
+$base-backgound-color:  white;
+$base-backgound-image:  url("");
+
+
+// Header
+$headerBackgroundColor:   white;
+$headerBorderColor:       rgba(0,0,0,.1);
+$headerFontColor:         #000;
+
+// Aside
+$asideLeftWidth:        300px;
+$asideBackgroundColor:  #263238;
+$asideBorderColor:      #000;
+$asideFontColor:        #fff;
+$asideIndex:            10;
+
+$gutter:                16px;
+
+// Responsiveness
+$mobile:                480px;
+$tablet:                768px;
+$desktop:               992px;
+
+$fast:                  .25s;
+$steady:                .5s;

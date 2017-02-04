@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <aside id="aside" class="aside aside-left">
+      {% include aside.html %}
+    </aside>
+
+    <div id="Container" class="is-moved-by-aside">
+      <header id="header">
+        {% include header.html %}
+      </header>
+      <main id="main" class="page-{{ page.class }}">
+        <div class="container">
+          {{ content }}
+        </div>
+      </main>
+      <footer id="footer">
+        {% include footer.html %}
+      </footer>
+    </div>
+    <script src="/assets/javascripts/main.js"></script>
+    <script src="/assets/javascripts/theme.js"></script>
+  </body>
+</html>

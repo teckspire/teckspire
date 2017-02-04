@@ -1,0 +1,3 @@
+gems: [jekyll-sass-converter, jekyll-watch]
+title: Teckspire
+permalink: /posts/:year/:month/:day/:title
